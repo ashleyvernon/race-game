@@ -24,12 +24,16 @@ img {
     width: 154px;
 }
 
+#spacetrack {
+	height: 330px;
+}
+
 h2 {
 	color: white;
 	text-transform: uppercase;
-/*	padding: 500px 0;*/
 	text-align: center;
-
+	padding: 20px 0;
+	border-bottom: solid 1px white;
 }
 
 .spaceInfo {
@@ -37,11 +41,13 @@ h2 {
 	font-size: 20px;
 	font-weight: bold
 	width: 50%;
-	float: left;	
+/*	float: right;*/
+	text-align: center;	
 }
 
 #spaceInfoContainer {
-	border-style: bold;
+	width: 80%;
+	margin: 40px auto 0;
 }
 
 .spaceInfo span {
@@ -69,7 +75,6 @@ input[type="button"] {
 input#reset {
 	background: #444;
 	color: white;
-
 }
 
 #planet {
@@ -79,6 +84,7 @@ input#reset {
 
 #planet1 {
 	top: 100px;
+	padding: 20px;
 }
 
 #planet2 {

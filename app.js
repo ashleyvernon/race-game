@@ -1,32 +1,18 @@
-
-// $(document).ready(function() {
-// 	$(document).keydown(function(key) {
-// 		switch(parseInt(key.which,10)) {
-// 			// Left arrow key pressed
-// 			case 37:
-// 				$('#planet1').animate({left: "-=50px"}, 'fast');
-// 				break;
-// 			// Up Arrow Pressed
-// 			case 38:
-// 				$('#planet1').animate({top: "-=50px"}, 'fast');
-// 				break;
-// 			// Right Arrow Pressed
-// 			case 39:
-// 				$('#planet1').animate({left: "+=50px"}, 'fast');
-// 				break;
-// 			// Down Arrow Pressed
-// 			case 40:
-
-// 				$('#planet1').animate({top: "+=50px"}, 'fast');
-// 				break;
-// 		}
-// 	});
-// });
 $(document).ready(function() {
 
 
 // click the GO button
 	$("#go").click(function() {
+
+		//build a function to see if car has won the race
+		function checkIfComplete() {
+
+			if( isComplete ==false){
+				isComplete = true;
+			} else {
+				place = 'second';
+			}
+		}
 
 		//get the width of the planet
 		var planetWidth = $('#planet1').width();
@@ -54,8 +40,36 @@ $(document).ready(function() {
 
 			//animation is complete
 
-		});
+			//fun a function
+			checkIfComplete();
 
+			//feedback on race info
+			$('#spaceInfo1').text('You won ' + place + 'place!');
+
+		});
+		//animate planet 2
+		$('#planet2').animate({
+
+			//move car width of the spacetrack
+			left: spaceTrackWidth
+
+		}, spaceTime2, function(){
+
+			//animation is complete
+
+			//fun a function
+			checkIfComplete();
+
+			//feedback on race info
+			$('#spaceInfo2').text('You won ' + place + 'place!');
+
+		});
+	});
+
+	//reset the race
+	$('#reset').click(function() {
+		$('.planet').css('left', '0');
+		$('.spaceInfo span').text('');
 	});
 });
 
