@@ -40,6 +40,10 @@ h2 {
 	float: left;	
 }
 
+#spaceInfoContainer {
+	border-style: bold;
+}
+
 .spaceInfo span {
 	display: block;
 	font-weight: normal;
