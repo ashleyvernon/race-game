@@ -1,6 +1,15 @@
 body {
+	background-color: black;
     background-image: url('http://bit.ly/UpQgJ6');
     background-repeat: cover;
+}
+
+h1 {
+	color: purple;
+}
+
+input {
+	background-color: yellow;
 }
 
 img {
@@ -9,5 +18,13 @@ img {
     top: 0;
     height: 154px;
     width: 154px;
+}
+
+#planet1 {
+	top: 100px;
+}
+
+#planet2 {
+	top: 300px;
 }
 
