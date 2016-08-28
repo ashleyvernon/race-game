@@ -4,26 +4,33 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Racecar Game</title>
+
+    <title>Space Race</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
-  </head>
-  <body>
-    <h1>My Racing Game!</h1>
-      <div class="trigger">Trigger</div>
-      <div class="result"></div>
-      <div class="log"></div>
-
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type='text/javascript' src="app.js"></script>
+
+
+
+  </head>
+  <body id="space-race">
+    <h1>My Racing Game!</h1>
+
+    <input type="button" value="Race!" id="go">
+    <input type="button" value="Restart" id="reset">
+
+    <div id="spacetrack">
+        <img src="http://www.animatedimages.org/data/media/597/animated-planet-image-0082.gif" id="planet1" class="planet">
+        <img src="http://www.animatedimages.org/data/media/597/animated-planet-image-0030.gif" id="planet2" class="planet">
+
+    </div>
   </body>
 </html>
