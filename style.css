@@ -6,10 +6,14 @@ body {
 
 h1 {
 	color: purple;
+	text-align: center;
 }
 
 input {
-	background-color: yellow;
+	background-color: #f5593c;
+	color: white;
+	text-align: center;
+	border-color: #f5593c;
 }
 
 img {
@@ -20,6 +24,55 @@ img {
     width: 154px;
 }
 
+h2 {
+	color: white;
+	text-transform: uppercase;
+/*	padding: 500px 0;*/
+	text-align: center;
+
+}
+
+.spaceInfo {
+	color: #fdab26;
+	font-size: 20px;
+	font-weight: bold
+	width: 50%;
+	float: left;	
+}
+
+.spaceInfo span {
+	display: block;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fdab26;
+}
+
+#spaceInfo1 {
+	color: #f5593c;
+}
+
+#spaceInfo2 {
+	color: purple;
+}
+
+input[type="button"] {
+	background-color: #f5593c;
+	color: white;
+	padding: 10px 20px;
+	border: solid 1px #444;
+}
+
+input#reset {
+	background: #444;
+	color: white;
+
+}
+
+#planet {
+	display: block;
+	position: relative;
+}
+
 #planet1 {
 	top: 100px;
 }
@@ -28,3 +81,8 @@ img {
 	top: 300px;
 }
 
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
