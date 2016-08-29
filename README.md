@@ -1,11 +1,19 @@
-Goal: Create an interactive race game space themed
+<h1> Space Race </h1>
 
+I created a game where two planets are racing each other to finish line.  Each planet has a randomly generated number in milliseconds so its a surprise each time. 
 
-Use jQuery for event handler
-	-create a random generater in milliseconds(1>5000) to move each planet at a random speed
-	-make each planet stop at width of page
-	-alert answer to question on race button, only once
+<h2>Technologies Used</h2>
 
+jQuery
+HTML
+CSS
+
+<h2> Proud of this code: </h2>
+
+		var spaceTime1 = Math.floor( (Math.random() * 5000) + 1);
+		var spaceTime2 = Math.floor( (Math.random() * 5000) + 1);
+
+link to game: accountant-trigger-52508.bitballoon.com
 
 
 
