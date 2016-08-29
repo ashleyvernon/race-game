@@ -1,9 +1,12 @@
-Goal: Create a two player interactive race game.
+Goal: Create an interactive race game space themed
 
 
 Use jQuery for event handler
-	-arrow keys to move planets
-	-back image will be space galaxy
+	-create a random generater in milliseconds(1>5000) to move each planet at a random speed
+	-make each planet stop at width of page
+	-alert answer to question on race button, only once
 
-two different buttons to create each player and moves
+
+
+
 
