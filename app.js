@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	$('#go').one("click", function() {
+		alert("YOU PLANET!");
+	});
 
 
 // click the GO button
@@ -40,11 +43,11 @@ $(document).ready(function() {
 
 			//animation is complete
 
-			//fun a function
+			//run the function
 			checkIfComplete();
 
 			//feedback on race info
-			$('#spaceInfo1').text('You won ' + place + 'place!');
+			$('#spaceInfo1').text('Venus won ' + place + ' place!');
 
 		});
 		//animate planet 2
@@ -57,16 +60,16 @@ $(document).ready(function() {
 
 			//animation is complete
 
-			//fun a function
+			//run the function
 			checkIfComplete();
 
-			//feedback on race info
-			$('#spaceInfo2').text('You won ' + place + 'place!');
+			//Feedback on race info
+			$('#spaceInfo2').text('Neptune won ' + place + ' place!');
 
 		});
 	});
 
-	//reset the race
+	//resets the race
 	$('#reset').click(function() {
 		$('.planet').css('left', '0');
 		$('.spaceInfo span').text('');

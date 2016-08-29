@@ -1,12 +1,16 @@
+
 body {
 	background-color: black;
     background-image: url('http://bit.ly/UpQgJ6');
     background-repeat: cover;
+    font-family: monospace;
 }
 
 h1 {
-	color: purple;
+	color: #1cbbce;
 	text-align: center;
+	font-family: monospace;
+	font-size: 48px;
 }
 
 input {
@@ -29,11 +33,12 @@ img {
 }
 
 h2 {
-	color: white;
+	color: #7d7dbd;
 	text-transform: uppercase;
 	text-align: center;
 	padding: 20px 0;
-	border-bottom: solid 1px white;
+	border-bottom: solid 1px blue;
+	font-size: 28px;
 }
 
 .spaceInfo {
@@ -41,8 +46,10 @@ h2 {
 	font-size: 20px;
 	font-weight: bold
 	width: 50%;
-/*	float: right;*/
-	text-align: center;	
+/*	float: left;
+*/	text-align: center;	
+/*	display: inline-block;*/
+
 }
 
 #spaceInfoContainer {
@@ -66,14 +73,14 @@ h2 {
 }
 
 input[type="button"] {
-	background-color: #f5593c;
+	background-color: #290567;
 	color: white;
 	padding: 10px 20px;
 	border: solid 1px #444;
 }
 
 input#reset {
-	background: #444;
+	background: #290567;
 	color: white;
 }
 
@@ -84,7 +91,7 @@ input#reset {
 
 #planet1 {
 	top: 100px;
-	padding: 20px;
+	padding: 30px;
 }
 
 #planet2 {
