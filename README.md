@@ -13,7 +13,7 @@ CSS
 		var spaceTime1 = Math.floor( (Math.random() * 5000) + 1);
 		var spaceTime2 = Math.floor( (Math.random() * 5000) + 1);
 
-link to game: accountant-trigger-52508.bitballoon.com
+link to game: http://accountant-trigger-52508.bitballoon.com
 
 
 

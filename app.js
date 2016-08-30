@@ -69,10 +69,10 @@ $(document).ready(function() {
 		});
 	});
 
-	//resets the race
+	//resets the race and text info
 	$('#reset').click(function() {
 		$('.planet').css('left', '0');
-		$('.spaceInfo span').text('');
+		$('.spaceInfo').text('');
 	});
 });
 
